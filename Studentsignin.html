@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <a href="http://127.0.0.1:8000/Admin%20Signup">Go Back</a>
+<style>
+body{
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: white;
+}
+.container {
+    padding: 50px;
+  background-color: white;
+}
+
+input[type=text], input[type=password], textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: orange;
+  outline: none;
+}
+ div {
+            padding: 10px 0;
+         }
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color: gray;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+<form>
+  <div class="container">
+  <center>  <h1> Student Registeration Form</h1> </center>
+  <hr>
+  <label> Firstname </label>
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />
+<label> Middlename: </label>
+<input type="text" name="middlename" placeholder="Middlename" size="15" required />
+<label> Lastname: </label>
+      <input type="text" name="lastname" placeholder="Lastname" size="15"required /></div>
+<div>
+<label>
+<div>
+<label>
+Gender :
+</label><br>
+<input type="radio" value="Male" name="gender" checked > Male
+<input type="radio" value="Female" name="gender"> Female
+<input type="radio" value="Other" name="gender"> Other
+
+</div>
+<label>
+Phone :
+</label>
+<input type="text" name="country code"  value="+91" size="2"/>
+<input type="text" name="phone" size="10"/> <br> <br>
+      Email:
+<input type="email" id="email" name="email"/> <br>
+<br> <br>
+Password:
+<input type="Password" id="pass" name="pass"> <br>
+<br> <br>
+Re-type password:
+<input type="Password" id="repass" name="repass"> <br> <br>
+
+    Class :
+</label>
+
+<select>
+<option value="Class">Select</option>
+<option value="Student">2022 Batch Student</option>
+<option value="old student">old student</option>
+</select>
+</div>
+<input type="button" value="Submit"/>
+ </form>
+<a href="http://127.0.0.1:8000/">Go to Homepage</a>
+</body>
+</html>
